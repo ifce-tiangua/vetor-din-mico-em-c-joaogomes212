@@ -65,11 +65,11 @@ int main()
         {
             if (i == linhas - 1 && j == colunas - 1)
             {
-                printf("%d", matriz[i][j]); // Último elemento sem vírgula
+                printf("%d", matriz[i][j]); 
             }
             else
             {
-                printf("%d, ", matriz[i][j]); // Elementos com vírgula
+                printf("%d, ", matriz[i][j]); 
             }
         }
     }
